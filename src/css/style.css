@@ -1,0 +1,130 @@
+html body {
+	background-color: rgb(250, 250, 250);
+	margin: 0;
+	padding: 0;
+	color: rgb(89, 70, 78);
+	font-family: : Roboto;
+	font-size: 18px;
+}
+
+.header {
+	background-color: rgb(26, 188, 156);
+	/*   width: 100%; */
+	text-align: center;
+	padding: 15px;
+}
+
+.menu {
+	text-align: center;
+	height: 100%;
+}
+
+.container {
+	overflow: auto;
+	height: auto;
+}
+
+.element:hover {
+	background-color: rgb(52, 73, 94);
+}
+
+.element {
+	padding: 10px;
+}
+
+.title {
+	background-color: rgb(22, 160, 133);
+	padding: 10px;
+}
+
+.content-wrapper {
+	width: 67%;
+	float: right;
+}
+
+.item {
+	padding: 10px;
+	overflow: auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button:hover {
+	background-color: rgb(52, 73, 94);
+}
+
+.footer {
+	padding: 15px;
+	text-align: right;
+	clear: both;
+}
+
+.dark {
+	color: rgb(229, 255, 255);
+	background-color: rgb(47, 68, 82);
+}
+/* TODO Proprietà non funzionante*/
+.exceeded {
+	color: red;
+}
+
+.not_exceeded {
+	color: green;
+}
+
+img {
+	max-width: 230;
+	max-height: 110px;
+}
+
+.biditem {
+	background-color: rgb(240, 240, 240);
+	text-align: center;
+	padding: 10px;
+	width: auto;
+	max-width: 250px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 8px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+.left-wrapper {
+	float: left;
+	width: 33%;
+}
+
+.tooltiptext {
+	font-size: 10px;
+	color: #888a85897078;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+.disabled {
+	opacity: 0.5;
+}
